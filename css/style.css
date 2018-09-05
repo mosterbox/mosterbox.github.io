@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(179, 183, 187);
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around
+
+
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.templ {
+  text-align: center;
+}
+
+.header, .ans {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 15vh;
+  color: white;
+}
+
+div {
+  font-size: 4vh;
+  color: white;
+}
+
+span {
+  font-size: 8vh;
+  color: white;
+}
+
+.time, .level, .point, .bonus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

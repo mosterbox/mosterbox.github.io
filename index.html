@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/pure.min.js"></script>
+    <title>Test Task</title>
+</head>
+<body onload="templ()">
+
+    <div class="content">
+        <div class="header">
+            <div class="time">Time<span id="timer">00:59</span></div>
+            <div class="level">Level<span></span></div>
+            <div class="point">Point<span id="point">0</span></div>
+            <div class="bonus">Bonus<span></span></div>
+        </div>
+        <div class="templ" >
+          <p id="exe"></p>
+
+        </div>
+        <div class="ans">
+          <span id="1" onclick="equals(event)"></span>
+          <span id="2" onclick="equals(event)"></span>
+          <span id="3" onclick="equals(event)"></span>
+          <span id="4" onclick="equals(event)"></span>
+          <span id="5" onclick="equals(event)"></span>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
